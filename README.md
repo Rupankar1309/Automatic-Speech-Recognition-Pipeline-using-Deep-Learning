@@ -1,17 +1,6 @@
+# Automatic Speech Recognition Pipeline using Deep Learning
 
----
-title: Speech To Text API
-emoji: 🎙️
-colorFrom: blue
-colorTo: purple
-sdk: docker
-pinned: false
-license: mit
----
-
-# 🎙️ Speech-to-Text API
-
-A from-scratch Automatic Speech Recognition REST API built with a
+An Automatic Speech Recognition REST API built from scratch with a
 **CNN + Bidirectional GRU + CTC** architecture, trained on the LibriSpeech
 corpus. No pretrained models were used — every component (feature
 extraction, CNN, BiGRU, CTC loss, greedy decoder) was implemented and
